@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 10px;
+}
+
+#mainHead{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(54, 54, 54);
+}
+
+#btnsDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#btnsDiv .btn{
+    font-family: sans-serif;
+    border: 10px solid gray;
+    border-radius: 20%;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 2rem 1rem;
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: flex-end;
+    color: red;
+}
+#btnsDiv .btn:hover{
+    scale: 1.15 1.15;
+    background-color: beige;
+    cursor: pointer;
+}
+
+#btnsDiv .cock{
+    background-image: url(photos/cock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btnsDiv .donkey{
+    background-image: url(photos/donkey.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#btnsDiv .horse{
+    background-image: url(photos/horse.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#btnsDiv .sheep{
+    background-image: url(photos/sheep.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width:1210px){
+    #btnsDiv{
+        flex-wrap: nowrap;
+    }   
+    #mainHead{
+        font-size: 8vw;
+        font-weight: 900;
+        
+    }
+    #btnsDiv .btn{
+        font-size: 5vw;
+        margin: 2rem 1rem;
+    }
+    #btnsDiv .btn:hover{
+        scale: 1.15 1.15;
+        background-color: beige;
+    }
+}
+@media (min-width:460px){
+    #btnsDiv{
+        flex-wrap: wrap;
+    }   
+    #mainHead{
+        font-size: 7vw;
+        font-weight: 900;
+        
+    }
+}
+
+@media (max-width:460px) {
+    #btnsDiv{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }   
+    #btnsDiv .btn{
+        display: flex;
+        justify-content: center;
+        padding: 1rem 1rem;
+    }   
+    #mainHead{
+        font-size: 8vw;
+        font-weight: 800;
+        
+    }
+}
