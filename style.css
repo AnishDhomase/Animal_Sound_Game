@@ -41,26 +41,26 @@ body{
 }
 
 #btnsDiv .cock{
-    background-image: url(photos/cock.png);
+    background-image: url(cock.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #btnsDiv .donkey{
-    background-image: url(photos/donkey.png);
+    background-image: url(donkey.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #btnsDiv .horse{
-    background-image: url(photos/horse.png);
+    background-image: url(horse.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #btnsDiv .sheep{
-    background-image: url(photos/sheep.png);
+    background-image: url(sheep.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
